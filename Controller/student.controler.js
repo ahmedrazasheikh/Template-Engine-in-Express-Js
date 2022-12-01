@@ -12,8 +12,14 @@ const deleteStudent = (req,res)=>{
         let {id} = req.params
         res.send(`<h1>${id} Student Data here !!!</h1>`)  
         } 
+
+
+// Check code //here!!!
+
     const checkingPurpose = (req,res)=>{
-        res.sendFile(  join(process.cwd() , 'Controller/html/index.html'))
+
+        // Here is Also Giving Argument 
+        res.render('index' , {'name' : 'Muhammad Saad'}   )
         } 
     const addStudent = (req,res)=>{
         console.log(req.params)

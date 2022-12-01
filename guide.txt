@@ -1,0 +1,7 @@
+sab sa pehle install 
+npm i ejs
+
+always  create the folder with name view 
+
+then  app.set('view engine','ejs')
+
